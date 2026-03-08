@@ -676,5 +676,138 @@ img{
 
 
 
+   /* mobile veiw */
+
+/* MOBILE VIEW */
+
+@media (max-width:768px){
+
+.container{
+    padding:40px 20px;
+}
+
+.grid{
+    flex-direction: column;
+}
+
+.grid2 .grid-sec,
+.grid3 .grid-sec,
+.grid4 .grid-sec{
+    width:100%;
+}
+
+.header .link1{
+    flex-direction: column;
+    align-items: center;
+}
+
+.header{
+    position: relative;
+}
+
+.head1{
+    width:100%;
+    font-size:35px;
+}
+
+.para1{
+    width:100%;
+    font-size:18px;
+}
+
+.page2 img{
+    width:100%;
+    height:auto;
+    padding:0;
+}
+
+.page3 .header3{
+    width:100%;
+    font-size:30px;
+}
+
+.page4 .grid2 .grid-sec .header4{
+    width:100%;
+    font-size:30px;
+}
+
+.page5 .header5{
+    width:100%;
+    font-size:35px;
+}
+
+.page5 .para5a{
+    width:100%;
+}
+
+.page6 .header6{
+    width:100%;
+    font-size:30px;
+    padding:0;
+}
+
+.page6 .para6a{
+    width:100%;
+}
+
+.page7 .header7{
+    width:100%;
+    font-size:35px;
+}
+
+.page7 .para7{
+    width:100%;
+}
+
+.page7 .p7{
+    flex-direction: column;
+}
+
+.page7 .p7y,
+.page7 .p7{
+    width:100%;
+}
+
+.page8 .header8{
+    width:100%;
+    font-size:30px;
+}
+
+.page8 .para8{
+    width:100%;
+}
+
+.page9{
+    padding:60px 20px;
+}
+
+.page9 .header9{
+    width:100%;
+    font-size:28px;
+    padding:0;
+}
+
+.page9 input{
+    width:100%;
+}
+
+.buto{
+    flex-direction:column;
+    gap:10px;
+}
+
+.last .l10{
+    flex-direction:column;
+}
+
+.last .l10a{
+    flex-direction:column;
+}
+
+.end .logos ul{
+    justify-content:center;
+}
+
+}
 
 
